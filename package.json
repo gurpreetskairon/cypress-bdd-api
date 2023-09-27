@@ -1,0 +1,23 @@
+{
+  "name": "cypress-bdd-api",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber BDD framework for API testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gurpreet Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalSpecDefinitions": true,
+    "step_definitions": "cypress/e2e/steps"
+  },
+  "keywords":[
+    "Cypress",
+    "cucumber"
+  ]
+}
